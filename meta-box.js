@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-  var $metabox = $('div#wp_plugin_content_connector.postbox');
+  var $metabox = $('div#wp_plugin_associated_posts.postbox');
 
   // Make toggle boxes slideable
   $metabox.find('h4.toggle-title').click(function(){
@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
       $this.removeClass('closed').addClass('open');
     }
   }).addClass('closed');
-
+  
   // Find active selection boxes
   $metabox.find('.toggle-box input:checkbox, .toggle-box select').change(function(){
     var $togglebox = $(this).parents('.toggle-box:first');

@@ -2,16 +2,19 @@
 
 /*
 
-Plugin Name: Content Connector
-Description: This Plugin enables you to connect contents with each other.
-Version: 0.1
+Plugin Name: Associated Posts Lite
+Plugin URI: http://dennishoppe.de/wordpress-plugins/associated-posts-pro
+Description: The "Associated Posts" Plugin enables you to associate posts and pages with each other. You can easily select a set of posts and attach it to a page.
+Version: 0.9.2
+Author: Dennis Hoppe
+Author URI: http://DennisHoppe.de
 
 */
 
 
 // Plugin Class
-If (!Class_Exists('wp_plugin_content_connector')){
-class wp_plugin_content_connector {
+If (!Class_Exists('wp_plugin_associated_posts')){
+class wp_plugin_associated_posts {
   var $base_url;
   var $template_dir;
   var $arr_option_box;
@@ -23,7 +26,7 @@ class wp_plugin_content_connector {
     $this->base_url = get_bloginfo('wpurl').'/'.Str_Replace("\\", '/', SubStr(RealPath(DirName(__FILE__)), Strlen(ABSPATH)));
 
     // Template directory
-    $this->template_dir = WP_CONTENT_DIR . '/content-connector';
+    $this->template_dir = WP_CONTENT_DIR . '/associated-posts';
 
     // Option boxes
     $this->arr_option_box = Array( 'main' => Array(), 'side' => Array() );
@@ -110,8 +113,8 @@ class wp_plugin_content_connector {
 
   function Add_Options_Page (){
     $handle = Add_Options_Page(
-      $this->t('Content Connector Options'),
-      $this->t('Content Connector'),
+      $this->t('Associated Posts Options'),
+      $this->t('Associated Posts'),
       'manage_options',
       __CLASS__,
       Array($this, 'Print_Options_Page')
@@ -121,8 +124,8 @@ class wp_plugin_content_connector {
     $this->Add_Option_Box ( $this->t('Position'), DirName(__FILE__).'/option-box-position.php' );
     $this->Add_Option_Box ( $this->t('Templates'), DirName(__FILE__).'/option-box-templates.php' );
     $this->Add_Option_Box ( $this->t('Add a Template'), DirName(__FILE__).'/option-box-add-template.php', 'main', 'closed' );
-    #$this->Add_Option_Box ( $this->t('Association Interface'), DirName(__FILE__).'/option-box-interface.php', 'side' );
-    #$this->Add_Option_Box ( $this->t('Selectable Taxonomies'), DirName(__FILE__).'/option-box-taxonomies.php', 'side' );
+    $this->Add_Option_Box ( $this->t('Association Interface'), DirName(__FILE__).'/option-box-interface.php', 'side' );
+    $this->Add_Option_Box ( $this->t('Selectable Taxonomies'), DirName(__FILE__).'/option-box-taxonomies.php', 'side' );
     $this->Add_Option_Box ( $this->t('Miscellaneous'), DirName(__FILE__).'/option-box-miscellaneous.php', 'side' );
 
     // Add JavaScript to this handle
@@ -160,11 +163,11 @@ class wp_plugin_content_connector {
 
     // Include JS
     WP_Enqueue_Script( 'dashboard' );
-    WP_Enqueue_Script( 'content-connector-options-page', $this->base_url . '/options-page.js' );
+    WP_Enqueue_Script( 'associated-posts-options-page', $this->base_url . '/options-page.js' );
 
     // Include CSS
     WP_Admin_CSS( 'dashboard' );
-    WP_Enqueue_Style ( 'content-connector-options-page', $this->base_url . '/options-page.css' );
+    WP_Enqueue_Style ( 'associated-posts-options-page', $this->base_url . '/options-page.css' );
   }
 
   function Print_Options_Page(){
@@ -182,7 +185,7 @@ class wp_plugin_content_connector {
     ForEach ((Array) $this->get_post_types() AS $post_type){
       Add_Meta_Box(
         __CLASS__,
-        $this->t('Content Connector'),
+        $this->t('Associated Posts'),
         ($post_type->name == 'page') ? Array($this, 'Print_Meta_Box') : Array($this, 'Print_Meta_Notice_Box'),
         $post_type->name,
         'normal',
@@ -191,8 +194,8 @@ class wp_plugin_content_connector {
     }
 
     // Enqueue Meta Box Style and Scripts
-    WP_Enqueue_Style( 'content-connector-meta-box', $this->base_url . '/meta-box.css' );
-    WP_Enqueue_Script( 'content-connector-meta-box', $this->base_url . '/meta-box.js', Array('jquery') );
+    WP_Enqueue_Style( 'associated-posts-meta-box', $this->base_url . '/meta-box.css' );
+    WP_Enqueue_Script( 'associated-posts-meta-box', $this->base_url . '/meta-box.js', Array('jquery') );
   }
 
   function Print_Meta_Box(){ Include DirName(__FILE__) . '/meta-box.php'; }
@@ -211,7 +214,7 @@ class wp_plugin_content_connector {
     );
 
     // Filter to add template files - you can use this filter to add template files to the user interface
-    $arr_template = (Array) Apply_Filters('content_connector_template_files', $arr_template);
+    $arr_template = (Array) Apply_Filters('associated_posts_template_files', $arr_template);
 
     // Check if there template files
     If (Empty($arr_template)) return False;
@@ -258,7 +261,7 @@ class wp_plugin_content_connector {
     If (Is_File($template_file)) return $template_file;
 
     // Is there a template by the theme author
-    $template_file = RealPath(Get_Query_Template( 'content-connector' ));
+    $template_file = RealPath(Get_Query_Template( 'associated-posts' ));
     If (Is_File($template_file)) return $template_file;
 
     // Else:
@@ -331,10 +334,10 @@ class wp_plugin_content_connector {
                      BaseName($template_file, '.php') . '.css';
 
       // run the filter for the template file
-      $style_sheet = Apply_Filters('content_connector_style_sheet', $style_sheet);
+      $style_sheet = Apply_Filters('associated_posts_style_sheet', $style_sheet);
 
       // Print the stylesheet link
-      If ($style_sheet) WP_Enqueue_Style ( 'content-connector-' . Sanitize_Title(BaseName($template_file, '.php')), $style_sheet );
+      If ($style_sheet) WP_Enqueue_Style ( 'associated-posts-' . Sanitize_Title(BaseName($template_file, '.php')), $style_sheet );
     }
 
   }
@@ -359,7 +362,7 @@ class wp_plugin_content_connector {
       $meta = $GLOBALS['post']->associated_posts;
 
     // Uses template filter
-    $template_file = Apply_Filters('content_connector_template', $meta['template']);
+    $template_file = Apply_Filters('associated_posts_template', $meta['template']);
 
     // If there is no valid template file we bail out
     If (!Is_File($template_file)) $template_file = $this->get_default_template();
@@ -515,9 +518,120 @@ class wp_plugin_content_connector {
     return $arr_attachment;
   }
 
-  function Pro_Notice(){}
+  function Pro_Notice(){
+    PrintF (
+      $this->t('Sorry, this feature is only available in the <a href="%s" target="_blank">Pro Version of Associated Posts</a>.'),
+      $this->t('http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro', 'Link to the authors website')
+    );
+  }
+
 
 } /* End of Class */
-New wp_plugin_content_connector;
+New wp_plugin_associated_posts;
+} /* End of If-Class-Exists-Condition */
+
+
+// Associated Posts Widget
+If (!Class_Exists('wp_widget_associated_posts')){
+class wp_widget_associated_posts Extends WP_Widget {
+  var $base_url;
+  var $arr_option;
+  var $AP;
+
+  function __construct( $id_base = False, $name = False, $widget_options = Array(), $control_options = Array() ){
+    // Catch the AP Plugin
+    $this->AP = $GLOBALS['wp_plugin_associated_posts'];
+
+    // Register Widget
+    // Setup the Widget data
+    parent::__construct (
+      False,
+      $this->t('Associated Posts'),
+      Array('description' => $this->t('Displays the associated posts of the current post in the sidebar.'))
+    );
+    Add_Action('init', Array($this, 'Register_Widget'));
+
+    // Read base_url
+    $this->base_url = $this->AP->base_url;
+  }
+
+  function Register_Widget(){
+    // Setup the Widget data
+    $this->name = $this->t('Associated Posts');
+    $this->widget_options['description'] = $this->t('Displays the associated posts of the current post in the sidebar.');
+  }
+
+  function t ($text, $context = ''){
+    // Translates the string $text with context $context
+    return $this->AP->t($text, $context);
+  }
+
+  function Default_Options(){
+    // Default settings
+    return Array(
+      'title' => $this->t('Associated Posts'),
+      'template_file' => Is_Object($this->AP) ? $this->AP->Get_Default_Template() : False
+    );
+  }
+
+  function Load_Options($options){
+    // Prepare $options array
+    $options = (ARRAY) $options;
+
+    // Delete empty values
+    ForEach ($options AS $key => $value)
+      If (!$value) Unset($options[$key]);
+
+    // Load options
+    $this->arr_option = Array_Merge ($this->Default_Options(), $options);
+  }
+
+  function Get_Option($key, $default = False){
+    If (IsSet($this->arr_option[$key]) && $this->arr_option[$key])
+      return $this->arr_option[$key];
+    Else
+      return $default;
+  }
+
+  function Set_Option($key, $value){
+    $this->arr_option[$key] = $value;
+  }
+
+  function Widget ($args, $options){ return False; }
+
+  function Form ($options){
+    // Load options
+    $this->Load_Options ($options); Unset ($options);
+
+    // Show form
+    If (!Is_Object($this->AP)) : ?>
+      <p class="warning">
+        <?php Echo $this->t('Please activate the Associated Posts Plugin!'); ?>
+      </p>
+
+    <?php Else : ?>
+      <p class="pro-notice"><?php $this->AP->Pro_Notice() ?></p>
+      <p>
+        <label for="<?php Echo $this->get_field_id('title')?>"><?php Echo $this->t('Title') ?></label>:
+        <input type="text" name="<?php Echo $this->get_field_name('title')?>" id="<?php Echo $this->get_field_id('title')?>" value="<?php Echo $this->get_option('title')?>">
+      </p>
+
+      <h3><?php Echo $this->t('Template') ?></h3>
+      <?php ForEach ($this->AP->Find_Templates() AS $template_file => $arr_template) : ?>
+      <p>
+        <input type="radio" name="<?php Echo $this->get_field_name('template_file')?>" id="<?php Echo $this->get_field_id('template_file')?>_<?php Echo Sanitize_Title($template_file) ?>" value="<?php Echo $template_file ?>" <?php Checked($this->get_option('template_file'), $template_file)?>>
+        <label for="<?php Echo $this->get_field_id('template_file')?>_<?php Echo Sanitize_Title($template_file) ?>"><?php Echo $arr_template['name'] ?></label> <small>(<em><?php Echo $arr_template['description'] ?></em>)</small>
+      </p>
+    <?php EndForEach; ?>
+
+    <?php EndIf;
+  }
+
+  function Update ($new_settings, $old_settings){
+    return $new_settings;
+  }
+
+} /* End of Class */
+Add_Action ('widgets_init', Create_function ('','Register_Widget(\'wp_widget_associated_posts\');') );
 } /* End of If-Class-Exists-Condition */
 /* End of File */

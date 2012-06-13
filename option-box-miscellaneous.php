@@ -5,5 +5,5 @@
 
 <p>
   <input type="checkbox" name="show_only_on_singulars" id="app_show_only_on_singulars" value="yes" <?php checked($this->get_option('show_only_on_singulars'), 'yes') ?>/>
-  <label for="app_show_only_on_singulars"><?php Echo $this->t('Display the connected contents only on single view.') ?></label>
+  <label for="app_show_only_on_singulars"><?php Echo $this->t('Display the associated posts only on single view.') ?></label>
 </p>

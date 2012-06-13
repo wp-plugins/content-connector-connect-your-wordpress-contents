@@ -13,6 +13,11 @@ var $delete_confirm_message = "<?php Echo $this->t('Are you sure you want to del
       <strong><?php Echo $properties['name'] ?></strong>
     <?php EndIf; ?>
     <?php If ($properties['version']) : ?> <small>(<?php Echo $properties['version'] ?>)</small><?php Endif; ?>
+    <?php If ($properties['author'] && !$properties['author_uri'] ) : ?>
+      <?php Echo $this->t('by') ?> <?php Echo $properties['author'] ?>
+    <?php ElseIf ($properties['author'] && $properties['author_uri'] ) : ?>
+      <?php Echo $this->t('by') ?> <a href="<?php Echo $properties['author_uri'] ?>" target="_blank"><?php Echo $properties['author'] ?></a>
+    <?php Endif; ?>
     <?php If ($properties['description']) : ?><br /><?php Echo $properties['description']; Endif; ?><br />
     <small><?php PrintF($this->t('Found in <em>%s</em>.'), $file) ?></small>
     </label>

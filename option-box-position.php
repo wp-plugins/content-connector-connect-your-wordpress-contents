@@ -1,16 +1,16 @@
 <p>
   <input type="radio" name="posts_position" id="app_posts_position_bottom" value="bottom" <?php checked($this->get_option('posts_position'), 'bottom') ?>/>
-  <label for="app_posts_position_bottom"><?php Echo $this->t('Append the connected contents to the pages content.') ?></label>
+  <label for="app_posts_position_bottom"><?php Echo $this->t('Append the associated posts to the pages content.') ?></label>
 </p>
 
 <p>
   <input type="radio" name="posts_position" id="app_posts_position_top" value="top" <?php checked($this->get_option('posts_position'), 'top') ?>/>
-  <label for="app_posts_position_top"><?php Echo $this->t('Prepend the connected contents to the pages content.') ?></label>
+  <label for="app_posts_position_top"><?php Echo $this->t('Prepend the associated posts to the pages content.') ?></label>
 </p>
 
 <p>
   <input type="radio" name="posts_position" id="app_posts_position_none" value="none" <?php checked($this->get_option('posts_position'), 'none') ?>/>
-  <label for="app_posts_position_none"><?php Echo $this->t('<b>Do not</b> show the connected contents automatically. (In this case you have to add the short code manually.)') ?></label>
+  <label for="app_posts_position_none"><?php Echo $this->t('<b>Do not</b> show the associated posts automatically. (In this case you have to add the short code manually.)') ?></label>
 </p>
 
 <p>
