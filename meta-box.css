@@ -1,0 +1,41 @@
+#wp_plugin_content_connector span.option-short,
+#wp_plugin_content_connector span.option-long {
+  width: 150px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#wp_plugin_content_connector span.option-long {
+  width: 304px;
+}
+
+#wp_plugin_content_connector .toggle-box input {
+}
+
+
+#wp_plugin_content_connector h4.toggle-title {
+  cursor: pointer;
+  padding-left: 15px;
+  background: url(images/arrow-up.gif) scroll no-repeat left center;
+}
+#wp_plugin_content_connector h4.toggle-title.closed {
+  background: url(images/arrow-down.gif) scroll no-repeat left bottom;
+}
+#wp_plugin_content_connector h4.toggle-title.open {
+}
+
+#wp_plugin_content_connector h4.toggle-title .active {
+  color: red;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+#wp_plugin_content_connector input.disabled {
+  background-color: #eee;
+}
+
+.pro-notice {
+  color: red;
+  font-style: italic;
+}

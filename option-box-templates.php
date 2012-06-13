@@ -1,0 +1,23 @@
+<script type="text/javascript">
+var $delete_confirm_message = "<?php Echo $this->t('Are you sure you want to delete this template?') ?>";
+</script>
+
+<ol>
+  <?php ForEach ( $this->find_templates() AS $file => $properties ) : ?>
+  <li>
+    <input type="radio" name="default_template_file" id="template_<?php Echo Sanitize_Title($file) ?>" value="<?php Echo HTMLSpecialChars($file) ?>" <?php Checked($this->get_default_template(), $file) ?>/>
+    <label for="template_<?php Echo Sanitize_Title($file) ?>">
+    <?php If (Empty($properties['name'])) : ?>
+      <em><?php Echo $file ?></em>
+    <?php Else : ?>
+      <strong><?php Echo $properties['name'] ?></strong>
+    <?php EndIf; ?>
+    <?php If ($properties['version']) : ?> <small>(<?php Echo $properties['version'] ?>)</small><?php Endif; ?>
+    <?php If ($properties['description']) : ?><br /><?php Echo $properties['description']; Endif; ?><br />
+    <small><?php PrintF($this->t('Found in <em>%s</em>.'), $file) ?></small>
+    </label>
+  </li>
+  <?php EndForEach; ?>
+</ol>
+
+<p>(<small><?php Echo $this->t('You can tick a template to make it the default one.') ?></small>)</p>
