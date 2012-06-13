@@ -1,5 +1,5 @@
 === Associated Posts Lite ===
-Contributors: dhoppe
+Contributors: guerilla-code-marketing, dhoppe
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=1220480
 Tags: post, posts, page, pages, associate, association, attach, list, admin, content, cms, category, categories, tag, tags, author, post-page-associator, associated-posts
 Requires at least: 3.1
@@ -74,7 +74,7 @@ Global $wp_plugin_associated_posts;
 $wp_plugin_associated_posts->Get_Associated_Posts ($page_id = Null){
 /* $page_id: the id of the page which associated posts you want to read.
              if $page_id = Null, the plugin will read from current page.
-   
+
    returns:  By default the function returns a WP_Query Object.
              The object is very well documented in the Codex.
              If there are no posts this function returns false.
