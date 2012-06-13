@@ -136,6 +136,12 @@ Installation as usual.
 
 == Changelog ==
 
+= 0.9.3 =
+* Increased filter priority for content filter to avoid incompatibilities with other content filtering plugins
+
+= 0.9.2 =
+* Added more taxonomies
+
 = 0.9.1 =
 * Removed the "Delete Template" Button. (It had has no functionality.)
 * Added more screenshots
