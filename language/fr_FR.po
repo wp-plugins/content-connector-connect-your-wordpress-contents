@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Associated Posts Lite Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-13 17:11+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dennis Hoppe <mail@DennisHoppe.de>\n"
+"Language-Team: TradPress.fr <tradpress@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: t;t:2c,1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../meta-box.php:15
+#, php-format
+msgid "Select %s by Author"
+msgstr "Selectionner %s par auteur"
+
+#: ../meta-box.php:20
+#: ../meta-box.php:35
+#, php-format
+msgid "Select %s explicitly (Additionally to your selection)"
+msgstr "Selectionner %s explicitement (De plus à votre sélection)"
+
+#: ../meta-box.php:21
+msgid "Active"
+msgstr "Actif"
+
+#: ../meta-box.php:28
+#, php-format
+msgid "Post %s (Without title)"
+msgstr "Article %s (Sans titre)"
+
+#: ../meta-box.php:39
+#, php-format
+msgid "Select %1$s by %2$s"
+msgstr "Selectionner %1$s par %2$s"
+
+#: ../meta-box.php:50
+msgid "Offset:"
+msgstr "Compensation :"
+
+#: ../meta-box.php:50
+msgid "Leave blank to start with the first post."
+msgstr "Laisser vide pour démarrer avec le premier article."
+
+#: ../meta-box.php:51
+msgid "With the offset you can pass over posts which would normally be collected by your selection."
+msgstr "Avec la compensation, vous pouvez passer sur les articles qui seraient normalement rassemblés par votre sélection."
+
+#: ../meta-box.php:56
+msgid "Posts per page:"
+msgstr "Articles par page :"
+
+#: ../meta-box.php:56
+msgid "Leave blank to show all posts on one page."
+msgstr "Laisser vide pour afficher tous les articles sur une seule page."
+
+#: ../meta-box.php:61
+msgid "Disable pagination:"
+msgstr "Désactiver la pagination :"
+
+#: ../meta-box.php:62
+msgid "Do not display the pagination for this post."
+msgstr "Ne pas désactiver la pagination pour cet article."
+
+#: ../meta-box.php:67
+msgid "Order posts by:"
+msgstr "Ordre des articles par :"
+
+#: ../meta-box.php:77
+msgid "Meta Value"
+msgstr "Valeur du Meta"
+
+#: ../meta-box.php:78
+msgid "Meta Value (Numeric)"
+msgstr "Valeur du Meta (numérique)"
+
+#: ../meta-box.php:83
+msgid "Order:"
+msgstr "Ordre :"
+
+#: ../meta-box.php:85
+msgid "Descending"
+msgstr "Descente"
+
+#: ../meta-box.php:86
+msgid "Ascending"
+msgstr "Montée"
+
+#: ../meta-box.php:91
+#: ../wp-plugin-associated-posts-lite.php:619
+msgid "Template"
+msgstr "Thème"
+
+#: ../meta-box.php:104
+#: ../meta-box.php:106
+#: ../option-box-templates.php:17
+#: ../option-box-templates.php:19
+msgid "by"
+msgstr "par"
+
+#: ../option-box-interface.php:1
+msgid "Please select the sections where you want to have an association meta box."
+msgstr "Merci de sélectionner les sections où vous souhaitez avoir une box Meta d'association."
+
+#: ../option-box-interface.php:10
+msgid "After you have done all your selections of course you can hide the boxes. Your selections will be stored. So you could hide the meta boxes from your client."
+msgstr "Après que vous ayez achevé toutes vos sélections, vous pouvez bien évidemment masquer les box. Vos sélections seront stockées. Donc vous pourriez cacher les box Meta de votre client."
+
+#: ../options-page.php:3
+#: ../wp-plugin-associated-posts-lite.php:117
+#: ../wp-plugin-associated-posts-lite.php:188
+#: ../wp-plugin-associated-posts-lite.php:549
+#: ../wp-plugin-associated-posts-lite.php:560
+#: ../wp-plugin-associated-posts-lite.php:572
+msgid "Associated Posts"
+msgstr "Association d'articles"
+
+#: ../meta-notice-box.php:2
+msgid "There you can associate all types of content with each other. Unfortunately you are using the <i>Lite</i> Edition yet. Why not switching to Pro? :)"
+msgstr "Ici vous pouvez associer tous types de contenus avec chaque autre. Actuellement, vous utilisez la version <i>Lite</i>. Pourquoi ne pas passer à la version Pro ? :)"
+
+#: ../option-box-add-template.php:1
+msgid "Install a template in ZIP format"
+msgstr "Installer un thème dans un format ZIP"
+
+#: ../option-box-add-template.php:2
+msgid "If you have a template in a .zip format, you may install it by uploading it here."
+msgstr "Si vous avez un thème dans un format .zip, vous pouvez l'installer en l'uploadant ici."
+
+#: ../option-box-add-template.php:3
+msgid "Template as ZIP File"
+msgstr "Thème comme fichier ZIP"
+
+#: ../option-box-add-template.php:5
+msgid "Install a template in PHP/CSS format"
+msgstr "Installer un thème dans un format PHP/CSS"
+
+#: ../option-box-add-template.php:6
+msgid "If you have a template in a .php (and .css format), you may install it by uploading it here."
+msgstr "Si vous avez un thème dans un format .php (ou .css), vous pouvez l'installer en l'uploadant ici."
+
+#: ../option-box-add-template.php:7
+msgid "Templates PHP File"
+msgstr "Fichier PHP du thème"
+
+#: ../option-box-add-template.php:8
+msgid "Templates CSS File"
+msgstr "Fichier CSS du thème"
+
+#: ../option-box-add-template.php:8
+msgid "not required"
+msgstr "non requis"
+
+#: ../option-box-add-template.php:10
+msgid "Install template and save all options"
+msgstr "Installer un thème et sauvegarder toutes les options"
+
+#: ../option-box-templates.php:2
+msgid "Are you sure you want to delete this template?"
+msgstr "Etes-vous sûr de vouloir supprimer ce thème ?"
+
+#: ../option-box-templates.php:22
+#, php-format
+msgid "Found in <em>%s</em>."
+msgstr "Trouvez-le dans <em>%s</em>."
+
+#: ../option-box-templates.php:28
+msgid "You can tick a template to make it the default one."
+msgstr "Vous pouvez cocher le thème pour le mettre par défaut."
+
+#: ../option-box-taxonomies.php:1
+msgid "Please select the taxonomies you need to select and filter your associated posts."
+msgstr "Merci de sélectionner les taxonomies que vous souhaitez sélectionner et filtrez vos articles associés."
+
+#: ../option-box-taxonomies.php:7
+#, php-format
+msgid "%s by the creator"
+msgstr "%s par le créateur"
+
+#: ../option-box-taxonomies.php:12
+#, php-format
+msgid "%1$s by %2$s"
+msgstr "%1$s par %2$s"
+
+#: ../option-box-taxonomies.php:17
+#, php-format
+msgid "Select %s explicitly"
+msgstr "Selectionner %s explicitement"
+
+#: ../option-box-miscellaneous.php:3
+msgid "Show the full path for hierarchical taxonomies."
+msgstr "Afficher le chemin complet pour les taxonomies hiérarchisées."
+
+#: ../option-box-miscellaneous.php:8
+msgid "Display the associated posts only on single view."
+msgstr "Afficher les articles associés seulement en vue unique."
+
+#: ../wp-plugin-associated-posts-lite.php:116
+msgid "Associated Posts Options"
+msgstr "Options des associations d'articles"
+
+#: ../wp-plugin-associated-posts-lite.php:124
+msgid "Position"
+msgstr "Position"
+
+#: ../wp-plugin-associated-posts-lite.php:125
+msgid "Templates"
+msgstr "Thèmes"
+
+#: ../wp-plugin-associated-posts-lite.php:126
+msgid "Add a Template"
+msgstr "Ajouter un thème"
+
+#: ../wp-plugin-associated-posts-lite.php:127
+msgid "Association Interface"
+msgstr "Interface des associations"
+
+#: ../wp-plugin-associated-posts-lite.php:128
+msgid "Selectable Taxonomies"
+msgstr "Taxonomies Sélectionnables"
+
+#: ../wp-plugin-associated-posts-lite.php:129
+msgid "Miscellaneous"
+msgstr "Divers"
+
+#: ../wp-plugin-associated-posts-lite.php:523
+#, php-format
+msgid "Sorry, this feature is only available in the <a href=\"%s\" target=\"_blank\">Pro Version of Associated Posts</a>."
+msgstr "Désolé, cette fonctionnalité n'est disponible que dans <a href=\"%s\" target=\"_blank\">la version Pro d'Association d'Articles</a>."
+
+#: ../wp-plugin-associated-posts-lite.php:524
+msgctxt "Link to the authors website"
+msgid "http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro"
+msgstr "http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro"
+
+#: ../wp-plugin-associated-posts-lite.php:550
+#: ../wp-plugin-associated-posts-lite.php:561
+msgid "Displays the associated posts of the current post in the sidebar."
+msgstr "Afficher les articles associés de l'article actuel dans la colonne latérale."
+
+#: ../wp-plugin-associated-posts-lite.php:609
+msgid "Please activate the Associated Posts Plugin!"
+msgstr "Merci d'activer le plugin d'Association d'Articles !"
+
+#: ../wp-plugin-associated-posts-lite.php:615
+msgid "Title"
+msgstr "Titre"
+
+#: ../option-box-position.php:3
+msgid "Append the associated posts to the pages content."
+msgstr "Joignez les articles associés au contenu des pages."
+
+#: ../option-box-position.php:8
+msgid "Prepend the associated posts to the pages content."
+msgstr "Désassocier les articles associés au contenu des pages."
+
+#: ../option-box-position.php:13
+msgid "<b>Do not</b> show the associated posts automatically. (In this case you have to add the short code manually.)"
+msgstr "<b>Ne pas</b> afficher les articles associés automatiquement. (Dans cette case, vous devez ajouter le code court (shortcode) manuellement.)"
+
+#: ../option-box-position.php:17
+msgid "Content filter priority"
+msgstr "Filtre du contenu prioritaire"
+
+#: ../option-box-position.php:19
+msgid "Appoints the priority of the auto added ShortCode in relation to other plugins."
+msgstr "Nommer la priorité de l'addition automatique du code court (ShortCode) par rapport à d'autre plugins."
+
+#~ msgid "Delete this template"
+#~ msgstr "Supprimer ce thème"
+
+#~ msgid "Delete"
+#~ msgstr "Supprimer"

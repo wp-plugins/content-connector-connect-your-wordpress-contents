@@ -1,9 +1,9 @@
 === Associated Posts Lite ===
-Contributors: guerilla-code-marketing, dhoppe
+Contributors: dhoppe
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=1220480
 Tags: post, posts, page, pages, associate, association, attach, list, admin, content, cms, category, categories, tag, tags, author, post-page-associator, associated-posts
 Requires at least: 3.1
-Tested up to: 3.4
+Tested up to: 3.5
 Stable tag: trunk
 
 The award-winning Associated Posts Lite (formerly Post Page Associator) Plugin enables you to display posts on a page.
@@ -105,6 +105,7 @@ Real developers love the clout of their code. And as a real WordPress developer 
 = Language =
 * This Plugin is available in English.
 * Dieses Plugin ist in Deutsch verfügbar. ([Dennis Hoppe](http://dennishoppe.de/))
+* Cette extension est disponible en Français. ([Quentin Turquet](http://www.tradpress.fr/))
 
 If you have translated this plugin in your language feel free to send me the language file (.po file) via E-Mail with your name and this translated sentence: "This plugin is available in %YOUR_LANGUAGE_NAME%." So I can add it to the plugin. Of course you get a backlink to your website!
 
@@ -135,6 +136,9 @@ Installation as usual.
 
 
 == Changelog ==
+
+= 0.9.4 =
+* Added French translation by [Quentin Turquet](http://www.tradpress.fr/)
 
 = 0.9.3 =
 * Increased filter priority for content filter to avoid incompatibilities with other content filtering plugins
