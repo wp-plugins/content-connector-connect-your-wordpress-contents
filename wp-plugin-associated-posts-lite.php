@@ -319,10 +319,6 @@ class wp_plugin_associated_posts {
 
   function Add_Templates_Styles(){
     // Find the template
-    #$association_data = $this->get_association_data();
-    #$template_file = $association_data['template'];
-    #If (!Is_File($template_file)) $template_file = $this->get_default_template();
-
     $arr_template_files = $this->Find_Templates();
     ForEach ($arr_template_files AS $template_file => $template_details){
       // If there is no style sheet we bail out

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Associated Posts Lite Plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-13 17:11+0100\n"
+"POT-Creation-Date: 2012-06-18 20:23+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Dennis Hoppe <mail@DennisHoppe.de>\n"
 "Language-Team: TradPress.fr <tradpress@gmail.com>\n"
@@ -94,7 +94,7 @@ msgid "Ascending"
 msgstr "Montée"
 
 #: ../meta-box.php:91
-#: ../wp-plugin-associated-posts-lite.php:619
+#: ../wp-plugin-associated-posts-lite.php:615
 msgid "Template"
 msgstr "Thème"
 
@@ -116,9 +116,9 @@ msgstr "Après que vous ayez achevé toutes vos sélections, vous pouvez bien é
 #: ../options-page.php:3
 #: ../wp-plugin-associated-posts-lite.php:117
 #: ../wp-plugin-associated-posts-lite.php:188
-#: ../wp-plugin-associated-posts-lite.php:549
-#: ../wp-plugin-associated-posts-lite.php:560
-#: ../wp-plugin-associated-posts-lite.php:572
+#: ../wp-plugin-associated-posts-lite.php:545
+#: ../wp-plugin-associated-posts-lite.php:556
+#: ../wp-plugin-associated-posts-lite.php:568
 msgid "Associated Posts"
 msgstr "Association d'articles"
 
@@ -230,26 +230,26 @@ msgstr "Taxonomies Sélectionnables"
 msgid "Miscellaneous"
 msgstr "Divers"
 
-#: ../wp-plugin-associated-posts-lite.php:523
+#: ../wp-plugin-associated-posts-lite.php:519
 #, php-format
 msgid "Sorry, this feature is only available in the <a href=\"%s\" target=\"_blank\">Pro Version of Associated Posts</a>."
 msgstr "Désolé, cette fonctionnalité n'est disponible que dans <a href=\"%s\" target=\"_blank\">la version Pro d'Association d'Articles</a>."
 
-#: ../wp-plugin-associated-posts-lite.php:524
+#: ../wp-plugin-associated-posts-lite.php:520
 msgctxt "Link to the authors website"
 msgid "http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro"
 msgstr "http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro"
 
-#: ../wp-plugin-associated-posts-lite.php:550
-#: ../wp-plugin-associated-posts-lite.php:561
+#: ../wp-plugin-associated-posts-lite.php:546
+#: ../wp-plugin-associated-posts-lite.php:557
 msgid "Displays the associated posts of the current post in the sidebar."
 msgstr "Afficher les articles associés de l'article actuel dans la colonne latérale."
 
-#: ../wp-plugin-associated-posts-lite.php:609
+#: ../wp-plugin-associated-posts-lite.php:605
 msgid "Please activate the Associated Posts Plugin!"
 msgstr "Merci d'activer le plugin d'Association d'Articles !"
 
-#: ../wp-plugin-associated-posts-lite.php:615
+#: ../wp-plugin-associated-posts-lite.php:611
 msgid "Title"
 msgstr "Titre"
 
