@@ -137,6 +137,9 @@ Installation as usual.
 
 == Changelog ==
 
+= 0.9.5 =
+* Add option to enable page numbers below multiple page contents.
+
 = 0.9.4 =
 * Added French translation by [Quentin Turquet](http://www.tradpress.fr/)
 

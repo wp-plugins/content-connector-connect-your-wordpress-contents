@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Associated Posts Lite Plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-18 20:23+0100\n"
+"POT-Creation-Date: 2012-06-19 16:39+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Dennis Hoppe <mail@DennisHoppe.de>\n"
 "Language-Team: TradPress.fr <tradpress@gmail.com>\n"
@@ -201,6 +201,10 @@ msgstr "Afficher le chemin complet pour les taxonomies hiérarchisées."
 #: ../option-box-miscellaneous.php:8
 msgid "Display the associated posts only on single view."
 msgstr "Afficher les articles associés seulement en vue unique."
+
+#: ../option-box-miscellaneous.php:13
+msgid "Display page numbers below multiple page contents. (Only required if your theme does not support it.)"
+msgstr ""
 
 #: ../wp-plugin-associated-posts-lite.php:116
 msgid "Associated Posts Options"

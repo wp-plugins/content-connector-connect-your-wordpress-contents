@@ -7,3 +7,9 @@
   <input type="checkbox" name="show_only_on_singulars" id="app_show_only_on_singulars" value="yes" <?php checked($this->get_option('show_only_on_singulars'), 'yes') ?>/>
   <label for="app_show_only_on_singulars"><?php Echo $this->t('Display the associated posts only on single view.') ?></label>
 </p>
+
+<p>
+  <input type="checkbox" disabled>
+  <label><?php Echo $this->t('Display page numbers below multiple page contents. (Only required if your theme does not support it.)') ?></label>
+  <span class="pro-notice"><?php $this->Pro_Notice() ?></span>
+</p>

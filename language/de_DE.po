@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Associated Posts Lite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-18 20:22+0100\n"
+"POT-Creation-Date: 2012-06-19 16:38+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Dennis Hoppe <mail@DennisHoppe.de>\n"
 "Language-Team: Dennis Hoppe\n"
@@ -201,6 +201,10 @@ msgstr "Zeige den vollen Pfad für hierarchische Klassifikationen."
 #: ../option-box-miscellaneous.php:8
 msgid "Display the associated posts only on single view."
 msgstr "Zeige die assoziierten Artikel nur in der Einzelansicht der entsprechenden Seite."
+
+#: ../option-box-miscellaneous.php:13
+msgid "Display page numbers below multiple page contents. (Only required if your theme does not support it.)"
+msgstr "Zeige Seitennummern für mehrseitige Inhalte. (Nur notwendig wenn Ihr Theme das nicht unterstützt.)"
 
 #: ../wp-plugin-associated-posts-lite.php:116
 msgid "Associated Posts Options"
