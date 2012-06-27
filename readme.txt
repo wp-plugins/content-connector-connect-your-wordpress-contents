@@ -12,7 +12,7 @@ The award-winning Associated Posts Lite (formerly Post Page Associator) Plugin e
 == Description ==
 
 = Please notice =
-* [There is a Pro Version of this Plugin available](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro)!
+* [There is also a Pro Version of this Plugin available](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro).
 * Post-Page-Associator has been granted the "Famous Software" Award! [To the post &raquo;](http://download.famouswhy.com/post_page_associator/)
 
 = Description =
@@ -114,7 +114,7 @@ You can find the *Translation.pot* file in the *language/* folder in the plugin 
 * Copy it.
 * Rename it (to your language code).
 * Translate everything.
-* Send it via E-Mail to mail@DennisHoppe.de.
+* Send it via E-Mail to <Mail [@t] DennisHoppe [dot] de>.
 * Thats it. Thank you! =)
 
 
