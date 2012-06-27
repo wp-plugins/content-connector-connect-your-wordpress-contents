@@ -114,7 +114,7 @@ You can find the *Translation.pot* file in the *language/* folder in the plugin 
 * Copy it.
 * Rename it (to your language code).
 * Translate everything.
-* Send it via E-Mail to <Mail [@t] DennisHoppe [dot] de>.
+* Send it via E-Mail to &lt;Mail [@t] DennisHoppe [dot] de&gt;.
 * Thats it. Thank you! =)
 
 
