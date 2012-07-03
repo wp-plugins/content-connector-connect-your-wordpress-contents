@@ -11,8 +11,8 @@ The award-winning Associated Posts Lite (formerly Post Page Associator) Plugin e
 
 == Description ==
 
-= Please notice =
-* We released a [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of Associated Posts.
+= News =
+* There is a [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of Associated Posts available.
 * Post-Page-Associator has been granted the "Famous Software" Award! [To the post &raquo;](http://download.famouswhy.com/post_page_associator/)
 
 = Description =
