@@ -11,9 +11,9 @@ The award-winning Associated Posts Lite (formerly Post Page Associator) Plugin e
 
 == Description ==
 
-=  News  =
-*  There is a [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of Associated Posts available.
-*  Post-Page-Associator has been granted the "Famous Software" Award! [To the post &raquo;](http://download.famouswhy.com/post_page_associator/)
+= News  =
+* There is a [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of Associated Posts available.
+* Post-Page-Associator has been granted the "Famous Software" Award! [To the post &raquo;](http://download.famouswhy.com/post_page_associator/)
 
 = Description =
 The "Associated Posts" Plugin is the subsequent version of "Post Page Associator". It enables you to associate posts and pages with each other. You can easily select posts in the "Edit Page" Mode and attach them to this page.
@@ -136,6 +136,9 @@ Installation as usual.
 
 
 == Changelog ==
+
+= 0.9.6 =
+* Fixed some incompatibilities that prevented the users from open the option boxes on the options page
 
 = 0.9.5 =
 * Add option to enable page numbers below multiple page contents.
