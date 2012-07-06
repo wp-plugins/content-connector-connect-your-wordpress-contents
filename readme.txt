@@ -86,10 +86,8 @@ Real developers love the clout of their code. And as a real WordPress developer 
 
 
 = Questions =
-* Please use the forum to leave questions.
-* If you need instant support please buy the Pro Version and use the support ticket system.
-* If you mail me without a support subscription your e-mail will be discarded unread. Thanks. :)
-* You can hire me for consulting, support and programming.
+I know you have many questions – my mailbox is the proof. ;) But unfortunately I cannot give support for the free plugins. There is a separate support package available for the Pro Version of this plugin. Please use it.
+Of course you can hire me for consulting, support, programming and customizations at any time.
 
 
 = In the Press =
