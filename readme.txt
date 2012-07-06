@@ -123,6 +123,11 @@ Installation as usual.
 1. Go to edit a page.
 1. There is a new box with title "Associated Posts". Try it out! ;)
 
+
+== Frequently Asked Questions ==
+I am collecting frequently asked questions yet. ;)
+
+
 == Screenshots ==
 
 1. Screenshot of the post selection box
