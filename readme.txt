@@ -86,8 +86,7 @@ Real developers love the clout of their code. And as a real WordPress developer 
 
 
 = Questions =
-I know you have many questions – my mailbox is the proof. ;) But unfortunately I cannot give support for the free plugins. There is a separate support package available for the Pro Version of this plugin. Please use it.
-Of course you can hire me for consulting, support, programming and customizations at any time.
+I know you have many questions – my mailbox is the proof. ;) But unfortunately I cannot give support for the free plugins. There is a separate support package available for the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of this plugin. Please use it. Of course you can hire me for consulting, support, programming and customizations at any time.
 
 
 = In the Press =
