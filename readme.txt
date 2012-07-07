@@ -1,6 +1,5 @@
 === Associated Posts Lite ===
 Contributors: dhoppe
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=1220480
 Tags: post, posts, page, pages, associate, association, attach, list, admin, content, cms, category, categories, tag, tags, author, post-page-associator, associated-posts
 Requires at least: 3.1
 Tested up to: 3.5
