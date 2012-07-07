@@ -124,7 +124,7 @@ Installation as usual.
 
 
 == Frequently Asked Questions ==
-I am collecting frequently asked questions yet. ;)
+I am still collecting frequently asked questions. ;)
 
 
 == Screenshots ==
