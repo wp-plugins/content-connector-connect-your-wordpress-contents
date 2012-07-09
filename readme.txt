@@ -17,7 +17,7 @@ Associated Posts enables you to associate posts and pages with each other. You c
 * Post-Page-Associator has been granted the "Famous Software" Award! [To the post &raquo;](http://download.famouswhy.com/post_page_associator/)
 
 > #### Pro Version available!
-> If you like the Lite Version why switching to the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of Associated Posts? :)
+> If you like the Lite Version why not switching to the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of Associated Posts? :)
 
 
 = Handling =
