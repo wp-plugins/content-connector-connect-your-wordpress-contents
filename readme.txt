@@ -16,6 +16,10 @@ Associated Posts enables you to associate posts and pages with each other. You c
 * There is a [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of Associated Posts available.
 * Post-Page-Associator has been granted the "Famous Software" Award! [To the post &raquo;](http://download.famouswhy.com/post_page_associator/)
 
+> #### Pro Version available!
+> If you like the Lite Version why switching to the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of Associated Posts? :)
+
+
 = Handling =
 The handling is very easy. When you are going to edit a page you will see a box with the title "Associated Posts". There you can choose posts which should attached to this page. In this version you cannot set the number of posts which should be shown on the page or other settings like the post order. These options are available in the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro).
 
