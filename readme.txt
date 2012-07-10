@@ -12,10 +12,6 @@ The award-winning Associated Posts Lite (formerly Post Page Associator) Plugin e
 
 Associated Posts enables you to associate posts and pages with each other. You can easily select posts in the "Edit Page" Mode and attach them to this page. This Plugin is the subsequent version of "Post Page Associator".
 
-= News  =
-* There is a [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of Associated Posts available.
-* Post-Page-Associator has been granted the "Famous Software" Award! [To the post &raquo;](http://download.famouswhy.com/post_page_associator/)
-
 > #### Pro Version available!
 > If you like the Lite Version why not switching to the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of Associated Posts? :)
 
@@ -91,6 +87,7 @@ I know you have many questions – my mailbox is the proof. ;) But unfortunately
 
 
 = In the Press =
+* Post-Page-Associator has been granted the "Famous Software" Award! [To the post &raquo;](http://download.famouswhy.com/post_page_associator/)
 * [Tom Altman](http://tomaltman.com/) said "*Why are posts and pages so oil and water in WordPress?  This plugin bridges the gap and makes them more like chocolate and peanut butter.*" [To the post &raquo;](http://tomaltman.com/post-page-association/)
 * [Annie Stasse](http://www.penseelibre.fr/) posted "Association des pages avec billets, catégories, mots-clés". [To the post &raquo;](http://www.penseelibre.fr/association-des-pages-avec-billets-categories-mots-cles/)
 * Nancy Golliday made this video: "Inserting Images and Using Featured Image in WordPress Post Page Associator". [To the post &raquo;](http://www.youtube.com/watch?v=9CjbWQRiZ1I)
