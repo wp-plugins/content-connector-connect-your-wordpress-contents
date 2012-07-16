@@ -115,6 +115,16 @@ You can find the *Translation.pot* file in the *language/* folder in the plugin 
 * Thats it. Thank you! =)
 
 
+= Dropbox =
+[Dropbox](http://db.tt/YHTvM7R) is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.
+
+[youtube http://www.youtube.com/watch?v=OFb0NaeRmdg]
+
+[Dropbox](http://db.tt/YHTvM7R) also makes it super easy to share with others, whether you're a student or professional, parent or grandparent. Even if you accidentally spill a latte on your laptop, have no fear! You can relax knowing that Dropbox always has you covered, and none of your stuff will ever be lost.
+
+[Sign up here!](http://db.tt/YHTvM7R) It's free! :)
+
+
 == Installation ==
 Installation as usual.
 
@@ -160,12 +170,3 @@ I am still collecting frequently asked questions. ;)
 
 = 0.9 =
 * Completely rewritten and relaunched
-
-== Dropbox ==
-[Dropbox](http://db.tt/YHTvM7R) is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.
-
-[youtube http://www.youtube.com/watch?v=OFb0NaeRmdg]
-
-[Dropbox](http://db.tt/YHTvM7R) also makes it super easy to share with others, whether you're a student or professional, parent or grandparent. Even if you accidentally spill a latte on your laptop, have no fear! You can relax knowing that Dropbox always has you covered, and none of your stuff will ever be lost.
-
-[Sign up here!](http://db.tt/YHTvM7R) It's free! :)
