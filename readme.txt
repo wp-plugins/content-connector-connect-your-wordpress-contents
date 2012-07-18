@@ -1,7 +1,7 @@
 === Associated Posts Lite ===
 Contributors: dhoppe
 Tags: post, posts, page, pages, associate, association, attach, list, admin, content, cms, category, categories, tag, tags, author, post-page-associator, associated-posts
-Requires at least: 3.3
+Requires at least: 3.1
 Tested up to: 3.5
 Stable tag: trunk
 
@@ -134,6 +134,9 @@ I am still collecting frequently asked questions. ;)
 
 
 == Changelog ==
+
+= 0.9.7 =
+* Sticky posts will be displayed on top of your selection now.
 
 = 0.9.6 =
 * Fixed some incompatibilities that prevented the users from open the option boxes on the options page

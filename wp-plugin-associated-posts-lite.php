@@ -5,7 +5,7 @@
 Plugin Name: Associated Posts Lite
 Plugin URI: http://dennishoppe.de/wordpress-plugins/associated-posts-pro
 Description: The "Associated Posts" Plugin enables you to associate posts and pages with each other. You can easily select a set of posts and attach it to a page.
-Version: 0.9.6
+Version: 0.9.7
 Author: Dennis Hoppe
 Author URI: http://DennisHoppe.de
 
@@ -297,9 +297,10 @@ class wp_plugin_associated_posts {
       'post_type' => $post_type,
       'posts_per_page' => -1,
       'post_status' => 'publish',
-      'caller_get_posts' => 1, // for WP < 3.1
-      'ignore_sticky_posts' => 1,
-      'post__not_in' => (Array) $exclude
+      'caller_get_posts' => true, // for WP < 3.1
+      'ignore_sticky_posts' => True,
+      'post__not_in' => (Array) $exclude,
+      'cache_results' => False
     ));
 
     return $post_query->posts;
@@ -421,12 +422,15 @@ class wp_plugin_associated_posts {
     If (!Is_Array($association_data) || Empty($association_data)) return False;
     If (Empty($association_data['post_ids'])) return False;
 
+    $post__in = (Array) $association_data['post_ids'];
+    $sticky_posts = (Array) Get_Option('sticky_posts', Array());
+    $post__not_in = Array_Diff($sticky_posts, $post__in);
+
     return Array (
-      'post__in' => $association_data['post_ids'],
+      'post__in' => $post__in,
+      'post__not_in' => $post__not_in,
       'posts_per_page' => -1,
       'post_type' => 'post',
-      'caller_get_posts' => IsSet($association_data['show_sticky_posts']) ? False : True, // for WP < 3.1
-      'ignore_sticky_posts' => IsSet($association_data['show_sticky_posts']) ? False : True, // for WP >= 3.1
       'tb' => True // We pretend this is a trackback query to avaid filters of exclude plugins
     );
   }
@@ -442,10 +446,18 @@ class wp_plugin_associated_posts {
       Return False;
 
     If ($query_vars = $this->get_query_vars($association_data)){
-      return New WP_Query($query_vars);
+			Add_Filter ('posts_results', Array($this, 'Filter_Posts_Result'), 999, 2);
+			$query = New WP_Query($query_vars);
+			Remove_Filter ('posts_results', Array($this, 'Filter_Posts_Result'), 999, 2);
+      return $query;
     }
     Else Return False;
   }
+
+  function Filter_Posts_Result($posts, &$wp_query){
+		$wp_query->is_home = True;
+		return $posts;
+	}
 
   function The_Post(&$post){
     If (!IsSet($post->associated_posts))
