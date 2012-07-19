@@ -12,6 +12,9 @@ The award-winning Associated Posts Lite (formerly Post Page Associator) Plugin e
 
 Associated Posts enables you to associate posts and pages with each other. You can easily select posts in the "Edit Page" Mode and attach them to this page. This Plugin is the subsequent version of "Post Page Associator".
 
+Btw: Associated Posts is also available as [Premium Plugin](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro).
+
+
 = Handling =
 The handling is very easy. When you are going to edit a page you will see a box with the title "Associated Posts". There you can choose posts which should attached to this page. In this version you cannot set the number of posts which should be shown on the page or other settings like the post order. These options are available in the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro).
 
