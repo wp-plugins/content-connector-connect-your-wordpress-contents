@@ -114,6 +114,10 @@ You can find the *Translation.pot* file in the *language/* folder in the plugin 
 * Thats it. Thank you! =)
 
 
+= Frequently Asked Questions =
+I am still collecting frequently asked questions. ;)
+
+
 == Installation ==
 Installation as usual.
 
@@ -121,10 +125,6 @@ Installation as usual.
 1. Activate the plugin through the "Plugins" menu in WordPress.
 1. Go to edit a page.
 1. There is a new box with title "Associated Posts". Try it out! ;)
-
-
-== Frequently Asked Questions ==
-I am still collecting frequently asked questions. ;)
 
 
 == Screenshots ==
