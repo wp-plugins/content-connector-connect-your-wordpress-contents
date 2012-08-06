@@ -127,7 +127,6 @@ Installation as usual.
 
 
 == Screenshots ==
-
 1. Screenshot of the post selection box
 2. Editor with [associated_posts] shortcode
 3. Edit Mode of a static page
