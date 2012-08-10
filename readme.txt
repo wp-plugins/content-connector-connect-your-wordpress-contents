@@ -26,6 +26,7 @@ You can change the association settings in WP Admin Panel &raquo; Settings &raqu
 
 
 = Shortcode =
+
 In case you won't have the associated posts at the end of your page you can use the <code>[associated_posts]</code> shortcode anywhere in your pages content. So the posts will be shown at the place you inserted the shortcode. (The shortcode has no parameters.)
 
 
