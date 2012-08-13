@@ -36,6 +36,7 @@ If you need a customized template of the associated posts. E.g. as list or with 
 
 
 = How to write an own customization =
+
 A template is a php file which renders the output of the associated posts (a WP Query). You can find example template files in the plugin folder (templates/). You can store these templates in:
 
 * plugin templates folder (or a sub folder) (inadvisable)
