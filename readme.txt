@@ -113,6 +113,7 @@ I know you have many questions – my mailbox is the proof. ;) But unfortunately
 
 
 = Translate this plugin =
+
 If you have translated this plugin in your language feel free to send me the language file (.po file) via E-Mail with your name and this translated sentence: "This plugin is available in %YOUR_LANGUAGE_NAME%." So I can add it to the plugin. Of course you get a backlink to your website!
 
 You can find the *Translation.pot* file in the *language/* folder in the plugin directory.
