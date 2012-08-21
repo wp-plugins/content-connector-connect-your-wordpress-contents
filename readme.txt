@@ -131,6 +131,7 @@ I am still collecting frequently asked questions. ;)
 
 
 == Installation ==
+
 Installation as usual.
 
 1. Unzip and Upload all files to a sub directory in "/wp-content/plugins/".
