@@ -1,5 +1,5 @@
 === Associated Posts Lite ===
-Contributors: dhoppe
+Contributors: Dennis Hoppe
 Tags: post, posts, page, pages, associate, association, attach, list, admin, content, cms, category, categories, tag, tags, author, post-page-associator, associated-posts
 Requires at least: 3.1
 Tested up to: 3.5
