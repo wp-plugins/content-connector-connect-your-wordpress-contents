@@ -15,7 +15,6 @@ Btw: Associated Posts is available as [Premium Plugin](http://dennishoppe.de/en/
 
 
 = Handling =
-
 The handling is very easy. When you are going to edit a page you will see a box with the title "Associated Posts". There you can choose posts which should attached to this page. In this version you cannot set the number of posts which should be shown on the page or other settings like the post order. These options are available in the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro).
 
 
