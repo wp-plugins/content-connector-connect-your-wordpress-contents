@@ -19,7 +19,6 @@ The handling is very easy. When you are going to edit a page you will see a box 
 
 
 = Settings =
-
 You can change the association settings in WP Admin Panel &raquo; Settings &raquo; Associated Posts.
 
 
