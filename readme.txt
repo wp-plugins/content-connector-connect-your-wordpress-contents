@@ -27,7 +27,6 @@ In case you won't have the associated posts at the end of your page you can use 
 
 
 = Customization =
-
 If you need a customized template of the associated posts. E.g. as list or with author, date, time or meta data feel free to send me an e-mail. For a small fee I will write a customized template for you. Don't be shy. ;)
 
 
