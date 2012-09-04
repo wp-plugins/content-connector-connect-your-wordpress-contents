@@ -96,7 +96,6 @@ I know you have many questions – my mailbox is the proof. ;) But unfortunately
 
 
 = Language =
-
 * This Plugin is available in English.
 * Dieses Plugin ist in Deutsch verfügbar. ([Dennis Hoppe](http://dennishoppe.de/))
 * Cette extension est disponible en Français. ([Quentin Turquet](http://www.tradpress.fr/))
