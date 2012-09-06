@@ -114,7 +114,6 @@ You can find the *Translation.pot* file in the *language/* folder in the plugin 
 
 
 = Frequently Asked Questions =
-
 I am still collecting frequently asked questions. ;)
 
 
