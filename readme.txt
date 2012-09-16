@@ -69,6 +69,7 @@ Add_Filter ('associated_posts_auto_append', Create_Function('',' return False; '
 
 
 = For real developers ;) =
+
 As a real developer you can easily access to the associated posts via functions:
 
 <code>
