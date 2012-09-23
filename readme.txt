@@ -1,6 +1,6 @@
 === Associated Posts Lite ===
 Contributors: dhoppe
-Tags: post, posts, page, pages, associate, association, attach, list, admin, content, cms, category, categories, tag, tags, author, post-page-associator, associated-posts
+Tags: widget, post, plugin, admin, posts, sidebar, comments, twitter, google, images, page, image, links, pages, associate, association, attach, list, content, cms, category, categories, tag, tags, author, post-page-associator, associated-posts
 Requires at least: 3.1
 Tested up to: 3.5
 Stable tag: trunk
