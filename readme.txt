@@ -1,5 +1,5 @@
 === Associated Posts Lite ===
-Contributors: dhoppe
+Contributors: Dennis Hoppe
 Tags: widget, post, plugin, admin, posts, sidebar, comments, twitter, google, images, page, image, links, pages, associate, association, attach, list, content, cms, category, categories, tag, tags, author, post-page-associator, associated-posts
 Requires at least: 3.1
 Tested up to: 3.5
@@ -9,6 +9,7 @@ The award-winning Associated Posts Lite (formerly Post Page Associator) Plugin e
 
 
 == Description ==
+
 This plugin enables you to associate posts and pages with each other and to display posts on any pages. You can easily select posts in the "Edit Page" Mode and attach them to this page. This Plugin is the subsequent version of "Post Page Associator".
 
 Btw: Associated Posts is available as [Premium Plugin](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) too.
