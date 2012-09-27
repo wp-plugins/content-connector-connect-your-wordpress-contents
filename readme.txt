@@ -59,7 +59,7 @@ The only required information in the header is the "AP Template" line. So the Pl
 
 = For Theme Designers =
 
-Feel free to create a template and add it to your theme. The plugin will find it automaticaly. You can find a working example file of a template in the plugin directory (*templates/title-excerpt-thumbnail.php*). Just copy it in your template directory and modify it until it fits your themes design.
+Feel free to create a template and add it to your theme. The plugin will find it automatically. You can find a working example file of a template in the plugin directory (*templates/title-excerpt-thumbnail.php*). Just copy it in your template directory and modify it until it fits your themes design.
 
 If you want to disable the auto append feature of the plugin you can use the '*associated_posts_auto_append*' filter.
 Just add this line of code to your *functions.php*:
