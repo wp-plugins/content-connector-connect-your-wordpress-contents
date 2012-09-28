@@ -9,34 +9,28 @@ The award-winning Associated Posts Lite (formerly Post Page Associator) Plugin e
 
 
 == Description ==
-
 [Associated Posts](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) enables you to associate posts and pages with each other and to display posts on any pages. You can easily select posts in the "Edit Page" Mode and attach them to this page. [Associated Posts Lite](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) is the subsequent version of "Post Page Associator".
 
 Btw: Associated Posts is available as [Premium Plugin](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) too.
 
 
 = Handling =
-
 The handling is very easy. When you are going to edit a page you will see a box with the title "Associated Posts". There you can choose posts which should attached to this page. In this version you cannot set the number of posts which should be shown on the page or other settings like the post order. These options are available in the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro).
 
 
 = Settings =
-
 You can change the association settings in WP Admin Panel &raquo; Settings &raquo; Associated Posts.
 
 
 = Shortcode =
-
 In case you won't have the [associated posts](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) at the end of your page you can use the <code>[associated_posts]</code> shortcode anywhere in your pages content. So the posts will be shown at the place you inserted the shortcode. (The shortcode has no parameters.)
 
 
 = Customization =
-
 If you need a customized template of the associated posts. E.g. as list or with author, date, time or meta data feel free to send me an e-mail. For a small fee I will write a customized template for you. Don't be shy. ;)
 
 
 = How to write an own customization =
-
 A template is a php file which renders the output of the associated posts (a WP Query). You can find example template files in the plugin folder (templates/). You can store these templates in:
 
 * plugin templates folder (or a sub folder) (inadvisable)
@@ -58,7 +52,6 @@ The only required information in the header is the "AP Template" line. So the Pl
 
 
 = For Theme Designers =
-
 Feel free to create a template and add it to your theme. The plugin will find it automatically. You can find a working example file of a template in the plugin directory (*templates/title-excerpt-thumbnail.php*). Just copy it in your template directory and modify it until it fits your themes design.
 
 If you want to disable the auto append feature of the plugin you can use the '*associated_posts_auto_append*' filter.
@@ -69,7 +62,6 @@ Add_Filter ('associated_posts_auto_append', Create_Function('',' return False; '
 
 
 = For real developers ;) =
-
 As a real developer you can easily access to the associated posts via functions:
 
 <code>
@@ -89,12 +81,10 @@ Real developers love the clout of their code. And as a real WordPress developer 
 
 
 = Questions =
-
 I know you have many questions – my mailbox is the proof. ;) But unfortunately I cannot give support for free plugins. There is a separate support package available for the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) of this plugin. Please use it. Of course you can hire me for consulting, support, programming and customizations at any time.
 
 
 = In the Press =
-
 * Post-Page-Associator has been granted the "Famous Software" Award! [To the post &raquo;](http://download.famouswhy.com/post_page_associator/)
 * [Tom Altman](http://tomaltman.com/) said "*Why are posts and pages so oil and water in WordPress?  This plugin bridges the gap and makes them more like chocolate and peanut butter.*" [To the post &raquo;](http://tomaltman.com/post-page-association/)
 * [Annie Stasse](http://www.penseelibre.fr/) posted "Association des pages avec billets, catégories, mots-clés". [To the post &raquo;](http://www.penseelibre.fr/association-des-pages-avec-billets-categories-mots-cles/)
@@ -106,14 +96,12 @@ I know you have many questions – my mailbox is the proof. ;) But unfortunately
 
 
 = Language =
-
 * This Plugin is available in English.
 * Dieses Plugin ist in Deutsch verfügbar. ([Dennis Hoppe](http://dennishoppe.de/))
 * Cette extension est disponible en Français. ([Quentin Turquet](http://www.tradpress.fr/))
 
 
 = Translate this plugin =
-
 If you have translated this plugin in your language feel free to send me the language file (.po file) via E-Mail with your name and this translated sentence: "This plugin is available in %YOUR_LANGUAGE_NAME%." So I can add it to the plugin. Of course you get a backlink to your website!
 
 You can find the *Translation.pot* file in the *language/* folder in the plugin directory.
@@ -126,12 +114,13 @@ You can find the *Translation.pot* file in the *language/* folder in the plugin 
 
 
 = Frequently Asked Questions =
-
 I am still collecting frequently asked questions. ;)
+
+= Currentness of Data =
+With effect from 2012/09/28 08:41
 
 
 == Installation ==
-
 Installation as usual.
 
 1. Unzip and Upload all files to a sub directory in "/wp-content/plugins/".
@@ -141,7 +130,6 @@ Installation as usual.
 
 
 == Screenshots ==
-
 1. Screenshot of the post selection box
 2. Editor with [associated_posts] shortcode
 3. Edit Mode of a static page
