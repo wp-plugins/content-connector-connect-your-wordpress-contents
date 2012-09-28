@@ -1,14 +1,11 @@
 <?php
-
 /*
-
 Plugin Name: Associated Posts Lite
 Plugin URI: http://dennishoppe.de/wordpress-plugins/associated-posts-pro
 Description: The "Associated Posts" Plugin enables you to associate posts and pages with each other. You can easily select a set of posts and attach it to a page.
-Version: 0.9.7
+Version: 0.9.8
 Author: Dennis Hoppe
 Author URI: http://DennisHoppe.de
-
 */
 
 
@@ -23,7 +20,7 @@ class wp_plugin_associated_posts {
 
   function __construct(){
     // Read base
-    $this->base_url = get_bloginfo('wpurl').'/'.Str_Replace("\\", '/', SubStr(RealPath(DirName(__FILE__)), Strlen(ABSPATH)));
+    $this->base_url = get_bloginfo('wpurl').'/'.SubStr(RealPath(DirName(__FILE__)), Strlen(ABSPATH));
 
     // Template directory
     $this->template_dir = WP_CONTENT_DIR . '/associated-posts';

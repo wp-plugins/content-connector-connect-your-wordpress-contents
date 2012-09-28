@@ -116,9 +116,6 @@ You can find the *Translation.pot* file in the *language/* folder in the plugin 
 = Frequently Asked Questions =
 I am still collecting frequently asked questions. ;)
 
-= Currentness of Data =
-With effect from 2012/09/28 08:41
-
 
 == Installation ==
 Installation as usual.
@@ -138,6 +135,9 @@ Installation as usual.
 
 
 == Changelog ==
+
+= 0.9.8 =
+* Removed base_url workaround for windows server
 
 = 0.9.7 =
 * Sticky posts will be displayed on top of your selection now.
