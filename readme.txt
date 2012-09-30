@@ -7,7 +7,6 @@ Stable tag: trunk
 
 The award-winning Associated Posts Lite (formerly Post Page Associator) Plugin enables you to display posts on a page.
 
-
 == Description ==
 [Associated Posts](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) enables you to associate posts and pages with each other and to display posts on any pages. You can easily select posts in the "Edit Page" Mode and attach them to this page. [Associated Posts Lite](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) is the subsequent version of "[Post Page Associator](http://dennishoppe.de/en/wordpress-plugins/post-page-associator)".
 
