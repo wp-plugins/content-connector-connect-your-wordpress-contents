@@ -9,17 +9,17 @@ The award-winning Associated Posts Lite (formerly Post Page Associator) Plugin e
 
 
 == Description ==
-[Associated Posts](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) enables you to associate posts and pages with each other and to display posts on any pages. You can easily select posts in the "Edit Page" Mode and attach them to this page. [Associated Posts Lite](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) is the subsequent version of "Post Page Associator".
+[Associated Posts](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) enables you to associate posts and pages with each other and to display posts on any pages. You can easily select posts in the "Edit Page" Mode and attach them to this page. [Associated Posts Lite](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) is the subsequent version of "[Post Page Associator](http://dennishoppe.de/en/wordpress-plugins/post-page-associator)".
 
-Btw: Associated Posts is available as [Premium Plugin](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) too.
+Btw: [Associated Posts](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) is available as [Premium Plugin](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro) too.
 
 
 = Handling =
-The handling is very easy. When you are going to edit a page you will see a box with the title "Associated Posts". There you can choose posts which should attached to this page. In this version you cannot set the number of posts which should be shown on the page or other settings like the post order. These options are available in the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro).
+The handling is very easy. When you are going to edit a page you will see a box with the title "[Associated Posts](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro)". There you can choose posts which should attached to this page. In this version you cannot set the number of posts which should be shown on the page or other settings like the post order. These options are available in the [Pro Version](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro).
 
 
 = Settings =
-You can change the association settings in WP Admin Panel &raquo; Settings &raquo; Associated Posts.
+You can change the association settings in WP Admin Panel &raquo; Settings &raquo; [Associated Posts](http://dennishoppe.de/en/wordpress-plugins/associated-posts-pro).
 
 
 = Shortcode =
