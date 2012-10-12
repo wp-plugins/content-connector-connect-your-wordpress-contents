@@ -1,6 +1,6 @@
 === Associated Posts Lite ===
 Contributors: dhoppe
-Tags: widget, widgets, sidebar, post, posts, plugin, admin, image, images, page, pages, links, associate, association, attach, list, connect, content, cms, category, categories, tag, tags, author, authors, post-page-associator, associated-posts
+Tags: widget, widgets, sidebar, post, posts, plugin, admin, image, images, page, pages, links, associate, association, attach, list, connect, content, cms, category, categories, tag, tags, author, authors, post-page-associator, associated-posts,       widget,Post,plugin,admin,posts,sidebar,comments,google,images,page,image,links
 Requires at least: 3.1
 Tested up to: 3.5
 Stable tag: trunk
@@ -96,7 +96,7 @@ I know you have many questions – my mailbox is the proof. ;) But unfortunately
 
 = Language =
 * This Plugin is available in English.
-* Dieses Plugin ist in Deutsch verfügbar. ([Dennis Hoppe](http://dennishoppe.de/))
+* Dieses Plugin ist in Deutsch verfügbar. ([Dennis Hoppe](http://DennisHoppe.de/))
 * Cette extension est disponible en Français. ([Quentin Turquet](http://www.tradpress.fr/))
 
 
@@ -108,7 +108,7 @@ You can find the *Translation.pot* file in the *language/* folder in the plugin 
 * Copy it.
 * Rename it (to your language code).
 * Translate everything.
-* Send it via E-Mail to &lt;Mail [@t] DennisHoppe [dot] de&gt;.
+* Send it via E-Mail to &lt;Mail [@t] [DennisHoppe](http://DennisHoppe.de/) [dot] de&gt;.
 * Thats it. Thank you! =)
 
 
