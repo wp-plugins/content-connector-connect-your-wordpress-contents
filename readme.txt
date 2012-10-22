@@ -1,5 +1,5 @@
 === Associated Posts Lite ===
-Contributors: dhoppe
+Contributors: Dennis Hoppe
 Tags: widget, widgets, sidebar, post, posts, plugin, admin, image, images, page, pages, links, associate, association, attach, list, connect, content, cms, category, categories, tag, tags, author, authors, post-page-associator, associated-posts,       widget,Post,plugin,admin,posts,sidebar,comments,google,images,page,image,links
 Requires at least: 3.1
 Tested up to: 3.5
